@@ -1,10 +1,58 @@
+.title
+{
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.instructions
+{
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+
 .tenzies-board
 {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    row-gap:
-    
+    justify-content: center;   
+}
+
+.you-won
+{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0B2434;
+    margin-bottom: 0;
+}
+
+.you-won-rolls
+{
+    font-size: 20px;
+    font-weight: 500;
+    color: #0B2434;
+}
+
+.rolls
+{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+
+.play-again
+{
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500; 
+    background-color: #0B2434;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 100px;
 }

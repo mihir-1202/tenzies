@@ -24,8 +24,3 @@
 {
     cursor: pointer;
 }
-
-.dice:active
-{
-   opacity: 0.6;
-}
