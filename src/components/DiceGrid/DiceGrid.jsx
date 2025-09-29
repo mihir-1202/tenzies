@@ -1,19 +1,12 @@
 import Dice from "../Dice/Dice"
 import "./DiceGrid.css"
 
-function getRandomDiceValue()
-{
-    return Math.floor(Math.random() * 6) + 1;
-}
 
-export default function DiceGrid()
+export default function DiceGrid({diceData, clickDice})
 {
-    let diceValues = [];
+    console.log(diceData);
     
-    for (let i = 0; i < 10; i++)
-        diceValues.push(getRandomDiceValue());
-    
-    const diceElements = diceValues.map((value, index) => <Dice key = {index} value = {value} />)
+    const diceElements = diceData.map((dice, index) => <Dice key = {index} value = {dice.value} isHeld = {dice.isHeld} onClick = {clickDice(index)} />)
     
     return(
         <div className = "dice-grid">

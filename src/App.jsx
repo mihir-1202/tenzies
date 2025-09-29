@@ -1,11 +1,10 @@
-import Dice from "./components/Dice/Dice" 
-import DiceGrid from "./components/DiceGrid/DiceGrid"
+import TenziesBoard from "./components/TenziesBoard/TenziesBoard"
 
 export default function App()
 {
   return(
     <main>
-      <DiceGrid />      
+      <TenziesBoard />      
     </main>
   )
 }

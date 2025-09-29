@@ -1,0 +1,16 @@
+.dice-roller
+{
+    width: 150px;
+    height: 60px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500; 
+    background-color: #5035FF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 100px;
+}
+
